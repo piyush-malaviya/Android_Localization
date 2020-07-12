@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FontRegular">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="FontLight">
+        <item name="android:fontFamily">@font/roboto_light</item>
+    </style>
+
+    <style name="FontMedium">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="FontBold">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <!-- Size -->
+    <style name="FontRegular.Small">
+        <item name="android:textSize">@dimen/size_12sp</item>
+    </style>
+
+    <style name="FontRegular.Default">
+        <item name="android:textSize">@dimen/size_14sp</item>
+    </style>
+
+    <style name="FontRegular.Medium">
+        <item name="android:textSize">@dimen/size_16sp</item>
+    </style>
+
+    <style name="FontRegular.Title">
+        <item name="android:textSize">@dimen/size_18sp</item>
+    </style>
+
+    <style name="FontRegular.Large">
+        <item name="android:textSize">@dimen/size_22sp</item>
+    </style>
+
+    <style name="FontLight.Small">
+        <item name="android:textSize">@dimen/size_12sp</item>
+    </style>
+
+    <style name="FontLight.Default">
+        <item name="android:textSize">@dimen/size_14sp</item>
+    </style>
+
+    <style name="FontLight.Medium">
+        <item name="android:textSize">@dimen/size_16sp</item>
+    </style>
+
+    <style name="FontLight.Title">
+        <item name="android:textSize">@dimen/size_18sp</item>
+    </style>
+
+    <style name="FontLight.Large">
+        <item name="android:textSize">@dimen/size_22sp</item>
+    </style>
+
+    <style name="FontMedium.Small">
+        <item name="android:textSize">@dimen/size_12sp</item>
+    </style>
+
+    <style name="FontMedium.Default">
+        <item name="android:textSize">@dimen/size_14sp</item>
+    </style>
+
+    <style name="FontMedium.Medium">
+        <item name="android:textSize">@dimen/size_16sp</item>
+    </style>
+
+    <style name="FontMedium.Title">
+        <item name="android:textSize">@dimen/size_18sp</item>
+    </style>
+
+    <style name="FontMedium.Large">
+        <item name="android:textSize">@dimen/size_22sp</item>
+    </style>
+
+    <style name="FontMedium.ExLarge">
+        <item name="android:textSize">@dimen/size_32sp</item>
+    </style>
+
+    <style name="FontBold.Small">
+        <item name="android:textSize">@dimen/size_12sp</item>
+    </style>
+
+    <style name="FontBold.Default">
+        <item name="android:textSize">@dimen/size_14sp</item>
+    </style>
+
+    <style name="FontBold.Medium">
+        <item name="android:textSize">@dimen/size_16sp</item>
+    </style>
+
+    <style name="FontBold.Title">
+        <item name="android:textSize">@dimen/size_18sp</item>
+    </style>
+
+    <style name="FontBold.Large">
+        <item name="android:textSize">@dimen/size_22sp</item>
+    </style>
+
+    <!-- Color -->
+    <style name="FontRegular.Small.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontRegular.Default.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontRegular.Default.Gray">
+        <item name="android:textColor">@color/colorGray</item>
+    </style>
+
+    <style name="FontRegular.Medium.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontRegular.Medium.Gray">
+        <item name="android:textColor">@color/colorGray</item>
+    </style>
+
+    <style name="FontRegular.Title.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontRegular.Large.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontLight.Small.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontLight.Default.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontLight.Medium.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontLight.Title.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontLight.Large.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontMedium.Small.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontMedium.Default.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontMedium.Medium.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontMedium.Title.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontMedium.Large.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontBold.Small.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontBold.Default.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontBold.Medium.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontBold.Title.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontBold.Large.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontRegular.Small.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontRegular.Default.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontRegular.Medium.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontRegular.Title.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontRegular.Large.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontLight.Small.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontLight.Default.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontLight.Medium.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontLight.Title.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontLight.Large.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontMedium.Small.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontMedium.Default.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontMedium.Medium.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontMedium.Title.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontMedium.Large.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontMedium.ExLarge.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontBold.Small.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontBold.Default.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontBold.Medium.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontBold.Title.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontBold.Large.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontRegular.Small.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontRegular.Default.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontRegular.Medium.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontRegular.Title.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontRegular.Large.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontLight.Small.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontLight.Default.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontLight.Medium.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontLight.Title.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontLight.Large.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontMedium.Small.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontMedium.Default.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontMedium.Default.Accent">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="FontMedium.Medium.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontMedium.Title.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontMedium.Large.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontMedium.ExLarge.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontBold.Small.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontBold.Default.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontBold.Medium.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontBold.Title.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontBold.Large.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+</resources>

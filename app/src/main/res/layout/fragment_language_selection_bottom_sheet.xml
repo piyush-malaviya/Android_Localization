@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/size_16dp"
+    android:paddingBottom="@dimen/size_16dp"
+    tools:context=".ui.LanguageSelectionBottomSheetFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/select_language"
+        android:textAppearance="@style/FontMedium.Title.Black" />
+
+    <TextView
+        android:id="@+id/tvEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_16dp"
+        android:background="?android:selectableItemBackground"
+        android:drawableEnd="@drawable/drawable_check_box"
+        android:padding="@dimen/size_16dp"
+        android:text="@string/language_english"
+        android:textAppearance="@style/FontMedium.Medium.Black" />
+
+    <TextView
+        android:id="@+id/tvHindi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_8dp"
+        android:background="?android:selectableItemBackground"
+        android:drawableEnd="@drawable/drawable_check_box"
+        android:padding="@dimen/size_16dp"
+        android:text="@string/language_hindi"
+        android:textAppearance="@style/FontMedium.Medium.Black" />
+
+</LinearLayout>
